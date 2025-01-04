@@ -1,0 +1,25 @@
+body
+{
+    text-align: center;
+}
+#container
+{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(2,100px);
+}
+.color
+{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+}
+#red{ background-color: red;}
+#green{ background-color: green;}
+#yellow{ background-color: yellow;}
+#blue{ background-color: blue;}
+.active
+{
+    opacity: 0.5;
+}
